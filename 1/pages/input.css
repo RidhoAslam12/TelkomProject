@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    margin-right: 100px;
+    margin-top: 50px;
+    flex-direction: row-reverse;
+    gap: 45px;
+}
+
+.boxbackground {
+    background-color: aqua;
+    border-radius: 25px;
+    width: 600px;
+    height: 93px;
+    z-index: 2;
+}
+
+.boxtulisan {
+    padding: 5px;
+    margin-left: 12px;
+}
+
+.boxlihat {
+    display: flex;
+    background-color: green;
+    width: 30px;
+    height: 40px;
+}
