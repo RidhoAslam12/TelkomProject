@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input Data</title>
-    <link rel="stylesheet" href="input.css">
-    <link rel="stylesheet" href="1c.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Data</title>
+        <link rel="stylesheet" href="input.css">
+        <link rel="stylesheet" href="1c.css">
+        <style>
+            .nav-links li b {
+                color: black; /* Change text color to black */
+                text-decoration: none; /* Optional: Remove underline */
+            }
+            .nav-links li a:hover {
+                text-decoration: underline; /* Optional: Add underline on hover */
+            }
+        </style>
+    </head>
+    <body>
 
     <nav class="navbar">
         <div class="logo-container">
             <img src="Telkom_Akses 1.png" class="logo">
         </div>
         <ul class="nav-links">
-            <li><a href='#'>Beranda</a></li>
-            <li><a href='#'>Input Data</a></li>
+            <li><a href='1.html'>Beranda</a></li>
+            <li><b href='#'>Input Data</b></li>
             <li><a href='#'>History</a></li>
             <li><a href='#'>Feedback</a></li>
         </ul>
@@ -27,16 +36,20 @@
 
     <div class="box">
         <div class="boxbackground">
-            <div class="boxtulisan">
-                <p>Laporan Tahun</p>
-                <p>2021</p>
-                <div class="boxlihat">
-                    <p>asd</p>
-                </div>
+            <div class="buttons">
+                <button class="buttinput" onclick="continueAction('lihat')">Lihat</button>
             </div>
+            <p>Last Editted</style></p>
+        <div class="boxtulisan">   
+            <p>Laporan Tahun</p>
+            <p>2021</p>
             
         </div>
+        </div>
         <div class="boxbackground">
+            <div class="boxlihat">
+                <p>Lihat</p>
+            </div>   
             <div class="boxtulisan">
                 <p>Laporan Tahun</p>
                 <p>2022</p>
@@ -45,66 +58,118 @@
     </div>
     <div class="box">
         <div class="boxbackground">
-            <div class="boxtulisan">
-                <p>Laporan Tahun</p>
+            <div class="boxlihat">
+                <p>Lihat</p>
             </div>
+        <div class="boxtulisan">   
+            <p>Laporan Tahun</p>
+            <p>2021</p>
+        </div>
+            
         </div>
         <div class="boxbackground">
+            <div class="boxlihat">
+                <p>Lihat</p>
+            </div>   
             <div class="boxtulisan">
                 <p>Laporan Tahun</p>
+                <p>2022</p>
             </div>
         </div>
     </div>
     <div class="box">
         <div class="boxbackground">
-            <div class="boxtulisan">
-                <p>Laporan Tahun</p>
+            <div class="boxlihat">
+                <p>Lihat</p>
             </div>
+        <div class="boxtulisan">   
+            <p>Laporan Tahun</p>
+            <p>2021</p>
+        </div>
+            
         </div>
         <div class="boxbackground">
+            <div class="boxlihat">
+                <p>Lihat</p>
+            </div>   
             <div class="boxtulisan">
                 <p>Laporan Tahun</p>
+                <p>2022</p>
             </div>
         </div>
     </div>
     <div class="box">
         <div class="boxbackground">
-            <div class="boxtulisan">
-                <p>Laporan Tahun</p>
+            <div class="boxlihat">
+                <p>Lihat</p>
             </div>
+        <div class="boxtulisan">   
+            <p>Laporan Tahun</p>
+            <p>2021</p>
+        </div>
+            
         </div>
         <div class="boxbackground">
+            <div class="boxlihat">
+                <p>Lihat</p>
+            </div>   
             <div class="boxtulisan">
                 <p>Laporan Tahun</p>
+                <p>2022</p>
             </div>
         </div>
     </div>
     <div class="box">
         <div class="boxbackground">
-            <div class="boxtulisan">
-                <p>Laporan Tahun</p>
+            <div class="boxlihat">
+                <p>Lihat</p>
             </div>
+        <div class="boxtulisan">   
+            <p>Laporan Tahun</p>
+            <p>2021</p>
+        </div>
+            
         </div>
         <div class="boxbackground">
+            <div class="boxlihat">
+                <p>Lihat</p>
+            </div>   
             <div class="boxtulisan">
                 <p>Laporan Tahun</p>
+                <p>2022</p>
             </div>
         </div>
     </div>
     <div class="box">
         <div class="boxbackground">
-            <div class="boxtulisan">
-                <p>Laporan Tahun</p>
+            <div class="boxlihat">
+                <p>Lihat</p>
             </div>
+        <div class="boxtulisan">   
+            <p>Laporan Tahun</p>
+            <p>2021</p>
+        </div>
+            
         </div>
         <div class="boxbackground">
+            <div class="boxlihat">
+                <p>Lihat</p>
+            </div>   
             <div class="boxtulisan">
                 <p>Laporan Tahun</p>
-                <p>2020</p>
+                <p>2022</p>
             </div>
         </div>
     </div>
-    
+   
+    <script>
+        function continueAction(section) {
+            const targetPage = `bulan.html?section=${section}`;
+            window.location.href = targetPage;
+        }
+
+        
+    </script>
 
 </body>
 </html>
