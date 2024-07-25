@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="logo">
+            <img src="Telkom_Akses 1.png" alt="Telkom Akses Logo">
+        </div>
+        <div class="container">
+            <h2>W E L C O M E</h2>
+            <form action="/login" method="post">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top, grey 1%, white 100%);
+    flex-direction: column; /* Added to stack items vertically */
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+
+.container {
+    background-color: #d32f2f;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center contents vertically */
+}
+
+.container h2 {
+    color: white;
+    margin-bottom: 50px; /* Adjusted margin */
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering form items */
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+    width: 500px;
+    padding: 15px; /* Adjusted padding */
+    margin: 10px 0; /* Adjusted margin */
+    border: none;
+    border-radius: 12px;
+    font-size: 18px; /* Adjusted font size */
+}
+
+.container input[type="submit"] {
+    width: 300px;
+    padding: 15px; /* Adjusted padding */
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #d32f2f;
+    font-size: 18px; /* Adjusted font size */
+    cursor: pointer;
+    margin-top: 20px; /* Added margin for better spacing */
+}
+
+.logo {
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    height: 160px;
+    width: 500px;
+}
